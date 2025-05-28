@@ -6,7 +6,7 @@ struct Empleado {
     float sueldo;
 };
 
-int main() {
+int main(
     struct Empleado empleado;
 
     printf("Ingrese el nombre del empleado: ");

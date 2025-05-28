@@ -6,13 +6,13 @@ struct Empleado {
     float sueldo;
 };
 
-int main(
+int main() {
     struct Empleado empleado;
 
     printf("Ingrese el nombre del empleado: ");
     scanf("%s", empleado.nombre);
     printf("Ingrese el sexo del empleado (MASCULINO/FEMENINO): ");
-    scanf("%s", emple
+    scanf("%s", empleado.sexo);
     printf("Ingrese el sueldo del empleado: ");
     scanf("%f", &empleado.sueldo);
 

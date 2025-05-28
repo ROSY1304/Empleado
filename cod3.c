@@ -12,7 +12,7 @@ int main(
     printf("Ingrese el nombre del empleado: ");
     scanf("%s", empleado.nombre);
     printf("Ingrese el sexo del empleado (MASCULINO/FEMENINO): ");
-    scanf("%s", empleado.sexo);
+    scanf("%s", emple
     printf("Ingrese el sueldo del empleado: ");
     scanf("%f", &empleado.sueldo);
 

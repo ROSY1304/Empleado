@@ -8,15 +8,7 @@ struct Empleado {
 
 int main() {
     struct Empleado empleado;
-
-  
-    printf("Ingrese el sueldo del empleado: ");
-    scanf("%f", &empleado.sueldo);
-
-    printf("\nInformación del empleado:\n");
-    printf("Nombre: %s\n", empleado.nombre
-    printf("Sexo: %s\n", empleado.sexo);
-    printf("Sueldo: %.2f\n", empleado.sueldo);
+ empleado.sueldo);
 
     return 0;
 }

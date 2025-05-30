@@ -9,6 +9,3 @@ struct Empleado {
 int main() {
     struct Empleado empleado;
  empleado.sueldo);
-
-    return 0;
-}
